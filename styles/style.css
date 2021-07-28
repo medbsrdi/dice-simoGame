@@ -1,0 +1,53 @@
+body{
+  /* background-color:#262A53; */
+  margin: 0;
+}
+
+h3{
+  font-family: 'Pacifico', cursive;
+  color:white;
+}
+
+/* head section */
+#head-section{
+  background-color: #262A53;
+}
+
+.btn-color{
+  color: red;
+}
+
+/* body section */
+#body-section{
+  background-color: #7C83FD;
+  text-align: center;
+}
+
+
+.header-title{
+  font-family: 'Pacifico', cursive;
+  color:white;
+  font-size: 10rem;
+  padding:5% 15%;
+
+}
+
+@media only screen and (max-width: 800px) {
+  .header-title{
+    background-color: lightblue;
+    font-size: 3rem;
+    padding-top: 30px;
+  }
+}
+
+.button-refresh{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 60px;
+  width: 50%;
+}
+
+/*  footer section */
+#footer-section{
+  text-align: center;
+}
